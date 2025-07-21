@@ -11,7 +11,7 @@ import py7zr    # pip install py7zr
 from telegram import Update, Document
 from telegram.ext import Application, MessageHandler, CommandHandler, filters, ContextTypes
 
-TOKEN = os.getenv("7674737315:AAHWSJh8UEJwS3u6hvC5U0MxGATuVghYrxM")
+TOKEN = "7674737315:AAHWSJh8UEJwS3u6hvC5U0MxGATuVghYrxM"
 
 SUPPORTED_EXTENSIONS = ['.zip', '.rar', '.7z', '.tar', '.tar.gz', '.tgz']
 
